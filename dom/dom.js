@@ -67,10 +67,16 @@ $(document).ready(function(){
 });*/
 //Manipulacion en CSS
 //
-$(document).ready(function()
-{
-    $("boton").click(function()
-    {
-       $("p").addClass("im");
+/*
+$(document).ready(function(){
+    $("#btn4").click(function(){
+        $("p").addClass("par");
     });
-});
+});*/
+//removeclass
+/*
+$(document).ready(function(){
+    $("#btn5").click(function(){
+        $("p").removeClass("par");
+    });
+});*/
