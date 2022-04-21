@@ -80,3 +80,58 @@ $(document).ready(function(){
         $("p").removeClass("par");
     });
 });*/
+//toggleClass
+/*
+$(document).ready(function(){
+    $("#btn6").click(function(){
+        $("p").toggleClass("par");
+    });
+});*/
+//css
+/*
+$(document).ready(function(){
+    $("#btn7").click(function(){
+        alert("Background color ="+
+        $("p").css("background-color"));
+    });
+})*/
+//sobreponer
+/*
+$(document).ready(function(){
+    $("#btn8").click(function(){
+        $("p").css("background-color","yellow");
+    });
+})*/
+//Dimenciones
+//width() , heiight() and html()
+/*
+$(document).ready(function(){
+    $("#btn9").click(function(){
+        var txt=" ";
+        txt += "Width de div1 es : "+$("#div1").width()+"<br>";
+        txt += "Height de div1 es : "+$("#div1").height();
+        $("#div1").html(txt);
+    });
+})
+*/
+//InnerWidth(),innerHeight()
+/*
+$(document).ready(function(){
+    $("#btn9").click(function(){
+        var txt=" ";
+        txt += "Inner width de div1 es : "+$("#div1").innerWidth()+"<br>";
+        txt += "Inner height de div1 es : "+$("#div1").innerHeight();
+        $("#div1").html(txt);
+    });
+})*/
+//outerWidth(), outerHeight()
+/*
+$(document).ready(function(){
+    $("#btn9").click(function(){
+        var txt=" ";
+        txt += "Outer width de div1 es : "+$("#div1").outerWidth()+"<br>";
+        txt += "Outer height de div1 es : "+$("#div1").outerHeight();
+        $("#div1").html(txt);
+    });
+})*/
+//

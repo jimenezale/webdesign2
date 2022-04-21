@@ -40,11 +40,13 @@ body{
     font-size: 25px;
     color: rgb(17, 21, 21);
 }
-/*ol {
+
+#div1 {
     padding:20px 10px;
-    background: rgb(208, 46, 46);
+    background: rgb(0, 155, 23);
     text-align: center;
+    border: 1px solid red;
     margin: 10px 0px;
-    font-size: 25px;
-    color: rgb(255, 9, 234);
-}*/
+    width: 500px;
+    height: 350px;
+}
