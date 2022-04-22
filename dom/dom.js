@@ -16,7 +16,6 @@ $(document).ready(function(){
     );
 })*/
 //Prepend(antes)
-/*
 $(document).ready(function(){
     $("#btn1").click(function()
     {
@@ -28,7 +27,7 @@ $(document).ready(function(){
         $("ol").prepend("<li>Texto anterior</li>");
     }
     );
-})*/
+})
 //Before (antes)and After(despues)
 /*
 $(document).ready(function(){
