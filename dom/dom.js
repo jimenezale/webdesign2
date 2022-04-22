@@ -16,6 +16,7 @@ $(document).ready(function(){
     );
 })*/
 //Prepend(antes)
+/*
 $(document).ready(function(){
     $("#btn1").click(function()
     {
@@ -27,18 +28,18 @@ $(document).ready(function(){
         $("ol").prepend("<li>Texto anterior</li>");
     }
     );
-})
+})*/
 //Before (antes)and After(despues)
 /*
 $(document).ready(function(){
     $("#btn1").click(function()
     {
-        $(".contenedor").before("Caja 0<br>");
+        $(".contenedor").after("Caja 0<br>");
     }
     );
     $("#btn2").click(function()
     {
-        $("ol").after("<li>Texto siguiente</li>");
+        $("ol").before("<li>Texto siguiente</li>");
     }
     );
 })*/
@@ -54,7 +55,7 @@ $(document).ready(function(){
 /*
 $(document).ready(function(){
     $("#btn3").click(function(){
-        $(".contenido_borrar").empty();
+        $(".contenido_borrar2").empty();
     });
 });*/
 //filtrando elementos
@@ -71,23 +72,23 @@ $(document).ready(function(){
     $("#btn4").click(function(){
         $("p").addClass("par");
     });
-});*/
+});
 //removeclass
-/*
+
 $(document).ready(function(){
     $("#btn5").click(function(){
         $("p").removeClass("par");
     });
-});*/
+});
 //toggleClass
-/*
+
 $(document).ready(function(){
     $("#btn6").click(function(){
         $("p").toggleClass("par");
     });
-});*/
+});
 //css
-/*
+
 $(document).ready(function(){
     $("#btn7").click(function(){
         alert("Background color ="+
@@ -111,8 +112,8 @@ $(document).ready(function(){
         txt += "Height de div1 es : "+$("#div1").height();
         $("#div1").html(txt);
     });
-})
-*/
+})*/
+
 //InnerWidth(),innerHeight()
 /*
 $(document).ready(function(){
@@ -133,4 +134,3 @@ $(document).ready(function(){
         $("#div1").html(txt);
     });
 })*/
-//
