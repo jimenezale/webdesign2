@@ -4,61 +4,103 @@
 /* { margin: 0; box-sizing: border-box; } */
 
 body { 
-    font-size: 16px; 
-    line-height: 32px;
+    line-height: 20px;
     font-family:Ubuntu,sans-serif;
     color:#0b0c0b;
     background-color: antiquewhite;
 }
-
-h1 {
-    font-size: 2rem;
-    color:#21b080;
-}
-
-h2 {
-    font-size: 1.5rem;
-    text-align: center;
-    border-bottom: 2px solid #bbb;
-}
-
 header, main, footer {
-    margin: 1.25rem auto;
+    margin: 10px auto;
     padding: .5rem;
     max-width: 1600px;
 }
-main {
+main{
     background-color: #88ffe7;
+    display: flex;
+    justify-content: space-around;
+    overflow:hidden;
+    max-width: 100%;
 }
-
-main p{
-    text-align: center;
+#cont {
+    padding: 20px;
+    border: 2px dotted rgb(0, 88, 252);
+    border-bottom: 20px;
+    text-align: justify;
 }
-
+#cont1 {
+    padding: 20px;
+    border: 2px dotted rgb(0, 88, 252);
+    border-bottom: 20px;
+    text-align: justify;
+}
 header, footer, footer a {
-    text-align: center;
     background-color:#74beff;
     color: whitesmoke;
 }
-
-header .imagen {
-    display: block;
+nav .contenedor{
+    display: flex;
+    justify-content: space-around;
 }
-header nav {
-    flex-direction: left;
+nav{
+    overflow:hidden;
+    max-width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+    list-style-type:none;
 }
 .foto{
-border:2px dotted black;
-border-radius:100%;
+    display: flex;
+    justify-content: center;
+    border:2px dotted black;
+    border-radius:100%;
+    max-width: 10%;
+
 }
 a:hover{
     color:aquamarine;
-    font-size:24px
+    font-size:24px;
+}
+a:link{
+    display: flex;
+    text-decoration:none;
+    font-size: 24px;
 }
 /*color despues de visitar un sitio;*/
-/*a:visited{
+/*
+a:visited{
     color:#21b080;
 }*/
-footer {
-    font-size: 0.75rem;
+/*ul {
+     list-style-image: url("imagen_foto/img.jpg");
+}*/
+li{
+    overflow: hidden;
+    display: flex;
+    padding:20px;
+    border: 2px dotted black;
+    border-radius: 20px;
+    margin-right: 35px;
+    background: #3c7aff;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.451);
+}
+footer ,aside{
+    font-size: 20px;
+}
+.contenedor .usuario{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor .usuario .foto{
+    align-self: center;
+}
+.contenedor .usuario p{
+    font-size: 15px;
+    color: #0b0c0b;
+    align-self: center;
 }

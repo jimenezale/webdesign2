@@ -5,23 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="portal.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li> <a href="index.html">Inicio</a> </li>
-                <li> <a href="tareas.html">Tareas</a>  </li>
-                <li> <a href="proyectos.html">Proyectos</a> </li>
-            </ul>
-            <div class="imagen">
-                <img src="imagen_foto/img.jpg" alt="yuri!!!_on_Ice" class="foto">
-            </div>
+            <div class="contenedor">
+                <ul>
+                    <li> <a href="index.html" id="lista">Inicio</a> </li>
+                    <li> <a href="tareas.html"id="lista">Tareas</a>  </li>
+                    <li> <a href="proyectos.html" id="lista">Proyectos</a> </li>
+                </ul>
+                <div class="usuario">
+                    <img src="imagen_foto/img.jpg" alt="yuri!!!_on_Ice" class="foto">
+                    <p>Alejandra Andrea Jimenez Astete</p>
+                </div>                
+            </div>    
         </nav>
     </header>
     <main>
-        <div class="proyecto">
-            <p>Proyecto Jquery</p>
+        <div id="cont">
+            <p>Proyecto de Diseño Web (Jquery) </p>
+            <p>Proyecto 1</p>
+            <ol>Requisitos:
+                <li>
+                    Código HTML limpio, tabulado, debidamente validado.
+                </li>
+                <li>
+                    Codigo CSS normalizado y validado, evitando estilos repetidos.
+                </li>
+                <li>
+                    Código JScritp semántica y sistemáticamente correcto.
+                </li>
+            </ol>
+            <ol>Se presentaran los siguientes avances:
+                <li>
+                    Plan de Sitio
+                </li>
+                <li>
+                    Layout HTML
+                </li>
+                <li>
+                    Layout CSS
+                </li>
+            </ol>
+        </div>
+        <div id="cont1">
+            <p>Proyecto de Diseño Web (Bootstrap)</p>
             <p>Proyecto 2</p>
         </div>
     </main>
@@ -35,5 +65,9 @@
             Cochabamba-Bolivia
         </p>
     </footer>
+    <!--
+       <script src="pb.js"> </script> 
+    -->
+    
 </body>
 </html>
