@@ -64,8 +64,8 @@ a:hover{
     color:aquamarine;
     font-size:24px;
 }
-a:link{
-    display: flex;
+nav .contenedor a:link{
+    display: inline-block;
     text-decoration:none;
     font-size: 24px;
 }
@@ -77,7 +77,7 @@ a:visited{
 /*ul {
      list-style-image: url("imagen_foto/img.jpg");
 }*/
-li{
+nav .contenedor li{
     overflow: hidden;
     display: flex;
     padding:20px;
@@ -86,12 +86,13 @@ li{
     margin-right: 35px;
     background: #3c7aff;
 }
-li:hover{
+nav .contenedor li:hover{
     background-color: rgba(0, 0, 0, 0.451);
 }
 footer ,aside{
     font-size: 20px;
 }
+/*tareas y proyectos*/
 .contenedor .usuario{
     display: flex;
     flex-direction: column;
@@ -103,4 +104,11 @@ footer ,aside{
     font-size: 15px;
     color: #0b0c0b;
     align-self: center;
+}
+
+.listad .lista{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px dotted black;
 }

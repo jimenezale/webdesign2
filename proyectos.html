@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="portal.css">
 </head>
 <body>
@@ -12,9 +13,9 @@
         <nav>
             <div class="contenedor">
                 <ul>
-                    <li> <a href="index.html" id="lista">Inicio</a> </li>
-                    <li> <a href="tareas.html"id="lista">Tareas</a>  </li>
-                    <li> <a href="proyectos.html" id="lista">Proyectos</a> </li>
+                    <li> <a href="index.html" >Inicio</a> </li>
+                    <li> <a href="tareas.html">Tareas</a>  </li>
+                    <li> <a href="proyectos.html" >Proyectos</a> </li>
                 </ul>
                 <div class="usuario">
                     <img src="imagen_foto/img.jpg" alt="yuri!!!_on_Ice" class="foto">
@@ -24,31 +25,40 @@
         </nav>
     </header>
     <main>
+        </div>
         <div id="cont">
             <p>Proyecto de Diseño Web (Jquery) </p>
             <p>Proyecto 1</p>
-            <ol>Requisitos:
-                <li>
+            <p>Requisitos:</p>
+            <ul class="listad">
+                <li class="lista">
                     Código HTML limpio, tabulado, debidamente validado.
+                    <button id="btn1b">Ver</button>
                 </li>
-                <li>
+                <li class="lista">
                     Codigo CSS normalizado y validado, evitando estilos repetidos.
+                    <button id="btn2b">Ver</button>
                 </li>
-                <li>
+                <li class="lista" >
                     Código JScritp semántica y sistemáticamente correcto.
+                    <button id="btn3b">Ver</button>
                 </li>
-            </ol>
-            <ol>Se presentaran los siguientes avances:
-                <li>
+            </ul>
+            <p>Se presentaran los siguientes avances:</p>
+            <ul class="listad">
+                <li class="lista">
                     Plan de Sitio
-                </li>
-                <li>
+                    <button id="btn4b">Ver</button>
+                </li class="lista">
+                <li class="lista">
                     Layout HTML
+                    <button id="btn5b">Ver</button>
                 </li>
-                <li>
+                <li class="lista">
                     Layout CSS
+                    <button id="btn6b">Ver</button>
                 </li>
-            </ol>
+            </ul>
         </div>
         <div id="cont1">
             <p>Proyecto de Diseño Web (Bootstrap)</p>
