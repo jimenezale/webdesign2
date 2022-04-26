@@ -1,5 +1,12 @@
 alert( 'Bienvenido a mi portal de tareas');
-
+date = new Date().toLocaleDateString();           
+document.write(date);
+//
+//$(document).ready(function(){
+  //  $("#btn1").click(function(){
+        
+   // });
+//});//
 //variables
 /*let a=10;
 var b='Hola';
