@@ -8,11 +8,12 @@ body {
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
     color:#0b0c0b;
+    background-color: antiquewhite;
 }
 
 h1 {
     font-size: 2rem;
-    color:#321236;
+    color:#21b080;
 }
 
 h2 {
@@ -24,21 +25,40 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 800px;
+    max-width: 1600px;
+}
+main {
+    background-color: #88ffe7;
+}
+
+main p{
+    text-align: center;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color:#8A6694;
+    background-color:#74beff;
     color: whitesmoke;
 }
 
-header img {
-    width: 150px;
-    height: auto;
-    float: right;
+header .imagen {
+    display: block;
 }
-
+header nav {
+    flex-direction: left;
+}
+.foto{
+border:2px dotted black;
+border-radius:100%;
+}
+a:hover{
+    color:aquamarine;
+    font-size:24px
+}
+/*color despues de visitar un sitio;*/
+/*a:visited{
+    color:#21b080;
+}*/
 footer {
     font-size: 0.75rem;
 }

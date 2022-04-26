@@ -1,4 +1,4 @@
-alert( 'Hola mundo');
+alert( 'Bienvenido a mi portal de tareas');
 
 //variables
 let a=10;
