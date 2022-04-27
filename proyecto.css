@@ -2,14 +2,13 @@ body{
     background-color: #D5AAB9;
     max-width: 98%;
     align-items: center;
-    
 }
 header{
     color: rgb(188, 93, 93);
 }
 header nav{
     background-image: url("imagen_logo/comida0.jpg");
-    max-width: 98%;
+    max-width: 100%;
     display: flex;
 }
 header nav #logo{
@@ -25,16 +24,16 @@ header nav .lista_menu{
     max-width: 90%;
     list-style-type:none;
 }
-header nav .lista_menu li a:link{
+header nav .lista_menu li .l1:link{
     display: flex;
     text-decoration: none;
     font-size: 30px;
     color: bisque;
 }
-header nav .lista_menu li a:visited{
+header nav .lista_menu li .l1:visited{
     color: aquamarine;
 }
-header nav .lista_menu li a:hover{
+header nav .lista_menu li .l1:hover{
     color: rgb(127, 148, 255);
     font-size: 30px;
 }
@@ -44,7 +43,7 @@ header nav .lista_menu li {
 }
 main section .images{
     display: flex;
-    height: 400px;
+    height: 450px;
     width: 5956px;
     background-color: blue;
 }
@@ -52,10 +51,17 @@ main section .images .rotar{
     display: flex;
     width: 1489px;
     overflow: hidden;
-    flex-direction: column;
 }
-main{
-    background-color: blueviolet;
+main section{
+    overflow: hidden;
+    background-color: #E4C8D2;
+}
+aside{
+    background-color: #C18498;
+}
+footer
+{
+    background-color: #AE6575;
 }
 
     
