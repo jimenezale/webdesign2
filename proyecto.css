@@ -1,7 +1,7 @@
 body{
     background-color: #D5AAB9;
     max-width: 98%;
-    align-self: center;
+    align-items: center;
     
 }
 header{
@@ -37,10 +37,25 @@ header nav .lista_menu li a:visited{
 header nav .lista_menu li a:hover{
     color: rgb(127, 148, 255);
     font-size: 30px;
-
 }
 header nav .lista_menu li {
     display: flex;
     margin-right: 35px;
 }
+main section .images{
+    display: flex;
+    height: 400px;
+    width: 5956px;
+    background-color: blue;
+}
+main section .images .rotar{
+    display: flex;
+    width: 1489px;
+    overflow: hidden;
+    flex-direction: column;
+}
+main{
+    background-color: blueviolet;
+}
+
     
