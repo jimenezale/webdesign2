@@ -23,9 +23,10 @@ header nav .lista_menu{
     display: flex;
     align-items: center;
     max-width: 90%;
-    list-style-type:none
+    list-style-type:none;
 }
 header nav .lista_menu li a:link{
+    display: flex;
     text-decoration: none;
     font-size: 30px;
     color: bisque;
@@ -39,6 +40,7 @@ header nav .lista_menu li a:hover{
 
 }
 header nav .lista_menu li {
+    display: flex;
     margin-right: 35px;
 }
     
