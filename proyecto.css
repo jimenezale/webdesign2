@@ -1,46 +1,49 @@
-body{
+
+.contenedorpadre{
+    max-width: 1600px;
+    display: block;
     background-color: #D5AAB9;
-    max-width: 98%;
-    align-items: center;
 }
-header{
-    color: rgb(188, 93, 93);
-}
-header nav{
+.contenedor1{
+    /*color: rgb(188, 93, 93);*/
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 96%;
     background-image: url("imagen_logo/comida0.jpg");
-    max-width: 100%;
-    display: flex;
+    overflow: hidden;
 }
-header nav #logo{
-    display: flex;
+
+.contenedor1 header nav #logo{  
     border: 2px dotted black;
     border-radius: 100%;
-    max-width: 10%;
-    margin: 40px;
+    max-width: 15%;
+    margin: 3.5%;
 }
-header nav .lista_menu{
-    display: flex;
-    align-items: center;
-    max-width: 90%;
+.contenedor1 header nav .lista_menu{
+    max-width: 85%;
     list-style-type:none;
+    margin: 8% 10%;
+    float: right;
+    list-style-type: none;
 }
-header nav .lista_menu li .l1:link{
-    display: flex;
-    text-decoration: none;
-    font-size: 30px;
-    color: bisque;
-}
-header nav .lista_menu li .l1:visited{
-    color: aquamarine;
-}
-header nav .lista_menu li .l1:hover{
-    color: rgb(127, 148, 255);
-    font-size: 30px;
-}
-header nav .lista_menu li {
-    display: flex;
+.contenedor1 header nav .lista_menu li{
+    float: left;
+    margin-left:35px;
     margin-right: 35px;
 }
+.contenedor1 header nav .lista_menu li .l1:link{
+    text-decoration: none;
+    font-size: 37px;
+    color: bisque;
+}
+.contenedor1 header nav .lista_menu li .l1:visited{
+    color: aquamarine;
+}
+.contenedor1 header nav .lista_menu li .l1:hover{
+    color: rgb(127, 148, 255);
+}
+/*
+
 main section .images{
     display: flex;
     height: 450px;
@@ -56,12 +59,23 @@ main section{
     overflow: hidden;
     background-color: #E4C8D2;
 }
+main{
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 1600px;
+}
 aside{
     background-color: #C18498;
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 1600px;
 }
 footer
 {
     background-color: #AE6575;
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 1600px;
 }
 
     
