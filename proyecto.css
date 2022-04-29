@@ -28,54 +28,61 @@
 }
 .contenedor1 header nav .lista_menu li{
     float: left;
-    margin-left:35px;
-    margin-right: 35px;
+    margin-left:23px;
+    margin-right: 21px;
+    font-weight: bold;
+    font-family: 'BIZ UDPGothic', sans-serif;
+}
+.contenedor1 header nav .lista_menu li .l1{
+    border-radius: 20%;
 }
 .contenedor1 header nav .lista_menu li .l1:link{
     text-decoration: none;
     font-size: 37px;
-    color: bisque;
+    color: rgb(9, 255, 202);
+    background-color: rgb(255, 204, 255);
 }
 .contenedor1 header nav .lista_menu li .l1:visited{
-    color: aquamarine;
+    color: #000000;
 }
 .contenedor1 header nav .lista_menu li .l1:hover{
-    color: rgb(127, 148, 255);
+    color: #fe2b2b;
+    background-color: #f0f8ff;
 }
-/*
-
-main section .images{
+.contenedor2{
+    margin: 10px auto;
+    padding: .5rem;
+    max-width: 96%;
+    overflow: hidden;
+    background-color: #E4C8D2;
+}
+.contenedor2 main .contenedorrecetas .carrusel section .images{
     display: flex;
     height: 450px;
     width: 5956px;
-    background-color: blue;
 }
-main section .images .rotar{
+.contenedor2 main .contenedorrecetas .carrusel section .images .rotar{
     display: flex;
     width: 1489px;
     overflow: hidden;
 }
-main section{
-    overflow: hidden;
-    background-color: #E4C8D2;
-}
-main{
-    margin: 10px auto;
-    padding: .5rem;
-    max-width: 1600px;
-}
-aside{
+
+.contenedor3{
     background-color: #C18498;
     margin: 10px auto;
     padding: .5rem;
     max-width: 1600px;
 }
-footer
-{
+.contenedor4{
     background-color: #AE6575;
     margin: 10px auto;
     padding: .5rem;
     max-width: 1600px;
 }
+
+
+
+
+
 
     
