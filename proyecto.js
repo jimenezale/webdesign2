@@ -4,12 +4,12 @@ function main(){
     var intervalo=setInterval("runcarrusel()",3000)
   }
   function runcarrusel(){
-      if(actual==$(".carrusel images").size())
+      if(actual==$(".images img").size())
       {
           actual=0;
       }
       $(".carrusel").animate({
-          marginLeft:(-1*actual*$(".carrusel image").eq(0).width())
+          marginLeft:(-1*actual*$(".images img").eq(0).width())
       },700);
       actual++;
   }
