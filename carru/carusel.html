@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="carusel.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <div id="c-carrusel">
+        <div id="carusel">
+            <section>
+                <img src="imagen_logo/comida2.jpg" alt="comida2">
+            </section>
+            <section>
+                <img src="imagen_logo/bollo.webp" alt="comida3">
+            </section>
+            <section>
+                <img src="imagen_logo/amburguesa.webp" alt="comida4">
+            </section>
+            <section>
+                <img src="imagen_logo/1536209429495-w2880-c4.jpg" alt="comida5" >
+            </section>
+        </div>
+        <div id="btn-antes">&#60;</div>
+        <div id="btn-despues">&#62;</div>
+    </div>
+
+
+    <script>
+        let carusel=$('#carusel');
+        let antes=$('#btn-antes');
+        let despues=$('#btn-despues');
+
+        // Mover el ultimo elemento
+        $('#carusel section:last').insertBefore('#carusel section:first')
+        
+        // Mostrar la primera con
+        carusel.css('margin-left','-'+100+'%');
+    
+        // cuando se haga click en el boton anterior
+        antes.on('click',function(){
+            carusel.animate({
+                marginLeft:0
+            },1000, function(){
+                $('#carusel section:last').insertBefore('#carusel section:first')
+                carusel.css('margin-left','-'+100+'%');
+            })
+        })
+
+        // cuando se haga click en el boton siguiente
+            despues.on('click',function(){
+                carusel.animate({
+                    marginLeft:'-'+200+'%'
+                },1000, function(){
+                    $('#carusel section:first').insertAfter('#carusel section:last')
+                    carusel.css('margin-left','-'+100+'%');
+                })
+            })
+    </script>
+    
+</body>
+</html>
