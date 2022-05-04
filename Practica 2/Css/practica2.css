@@ -1,5 +1,7 @@
-.col {
-    background: #555;
-    margin: 20px;
-    padding: 2px;
+body{
+    background: #D5AAB9;
+}
+.encabezado {
+    background-image: url("imagen_logo/comida0.jpg");
+    color: black;
 }
