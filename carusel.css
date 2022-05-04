@@ -1,9 +1,9 @@
 .carrusel{
     margin: auto;
-    width:85% ;
-    max-width: 1000px;
+    width:98% ;
     position: relative;
     overflow: hidden;
+    height: 400px;
     
 }
 #carusel{
@@ -25,7 +25,7 @@
     height: 40px;
     background: rgba(255,255,255,0.5);
     position: absolute;
-    top:18%;
+    top:50%;
     transform: translateY(-50%);
     line-height: 40px;
     font-size: 25px;

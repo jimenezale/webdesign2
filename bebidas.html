@@ -8,6 +8,7 @@
     <title>Proyecto</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="proyecto.css">
+    <link rel="stylesheet" href="carusel.css">
     <script src="jquery.js"></script>
 </head>
 <body>
@@ -38,15 +39,24 @@
             <main>
                 <div class="contenedorrecetas">
                     <div class="carrusel">
-                        <section>
-                            <div class="images">
+                        <div id="carusel">
+                            <section>
                                 <img src="imagen_logo/b1.jpg" alt="bebida2" class="rotar">
+                            </section>
+                            <section>
                                 <img src="imagen_logo/b3.jpg" alt="bebida3" class="rotar">
+                            </section>
+                            <section>
                                 <img src="imagen_logo/b4.webp" alt="bebida4" class="rotar">
+                            </section>
+                            <section>
                                 <img src="imagen_logo/b5.webp" alt="bebida5" class="rotar">
-                            </div>
-                        </section>
+                            </section>
+                        </div>
+                        <div id="btn-antes">&#60;</div>
+                        <div id="btn-despues">&#62;</div>
                     </div>
+                    <script src="proyecto.js"></script>
                     <div class="recetas">
                         <section class="r">
                             <p>Ingredientes para hacer Pollo a la portuguesa:</p>

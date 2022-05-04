@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="proyecto.css">
     <script src="jquery.js"></script>
 </head>
+
 <body>
     <div class="contenedorpadre">
         <div class="contenedor1">
@@ -36,15 +38,29 @@
         <div class="contenedor2">
             <main>
                 <div class="contenedorrecetas">
-                    <div class="carrusel">
-                        <section>
-                            <div class="images">
-                                <img src="imagen_logo/comida2.jpg" alt="comida2" class="rotar">
-                                <img src="imagen_logo/bollo.webp" alt="comida3" class="rotar">
-                                <img src="imagen_logo/amburguesa.webp" alt="comida4" class="rotar">
-                                <img src="imagen_logo/1536209429495-w2880-c4.jpg" alt="comida5" class="rotar">
+                    <div class="formulario">
+                        <form action="">
+
+                            <div class="inputBox">
+                                <h3>Nombre Completo</h3>
+                                <input type="text" required id="id1">
                             </div>
-                        </section>
+
+                            <div class="inputBox">
+                                <h3>e-mail</h3>
+                                <input type="email" required id="id2">
+
+                            </div>
+
+                            <div class="inputBox">
+                                <h3>Mensaje</h3>
+                                <textarea required name="" id="id3"></textarea>
+
+                            </div>
+
+                            <input type="submit" value="Enviar" id="id4 ">
+
+                        </form>
                     </div>
                     <div class="recetas">
                         <section class="r">
@@ -497,4 +513,5 @@
         </div>
     </div>
 </body>
+
 </html>
