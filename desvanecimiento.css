@@ -1,7 +1,12 @@
 .menu{
     background: yellow;
 }
+#div0,#div1,#div2,#div3{
+position:  absolute;
+-ms-perspective-origin-y: 20%;
+}
 .m{
     background: rgb(109, 109, 255);
     height: 400px;
+    position: relative;
 }
