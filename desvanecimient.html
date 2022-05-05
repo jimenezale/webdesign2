@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="desvanecimiento.css">
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#div0").fadeIn();
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>Demonstrate fadeIn() with different parameters.</p>
+
+    <button>Click to fade in boxes</button><br><br>
+
+    <div class="menu"> 
+        <div id="div0" style="width:80px;height:80px;display:none;background-color:rgb(0, 90, 128);">
+            <a href="#">Hola</a>
+        </div>
+        <br>
+        <div id="div1" style="width:80px;height:80px;display:none;background-color:red;">
+            <a href="#">Jabon</a>
+        </div>
+        <br>
+        <div id="div2" style="width:80px;height:80px;display:none;background-color:green;">
+            <a href="#">Jalon</a>
+        </div>
+        <br>
+        <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;">
+            <a href="#">Bonbon</a>
+        </div>
+    </div>
+    <div class="m">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Eum saepe pariatur facere rem 
+            consectetur minus minima laudantium, quod repudiandae, 
+            repellendus dolorem commodi quam amet perferendis eaque, quas earum id atque?
+        </p>
+    </div>
+
+</body>
+
+</html>
