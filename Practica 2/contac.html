@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-10">
                         <ul class="nav nav-tabs ">
-                            <li class="nav-item">
+                            <li class="nav-item align-items-center">
                                 <a class="nav-link active " href="practica_2.html">Cocina</a>
                             </li>
                             <li class="nav-item">
@@ -37,20 +37,34 @@
                 </header>
                 <main class="row menu">
                     <div class="col-md-12">
-                        <form role="form"> 
-                            <div class="form-group"> 
-                              <label for="email">Dirección de correo electrónico:</label> 
-                              <input type="email" class="form-control" id=" email"> 
-                            </div> 
-                            <div class="form-group"> 
-                              <label for="pwd">Contraseña:</label> 
-                              <input type="password" class="form-control" id="pwd" > 
-                            </div> 
-                            <div class="checkbox"> 
-                              <label><input type="checkbox"> Recordarme</label> 
-                            </div> 
-                            <button type="enviar" class="btn btn-default"> Enviar</botón> 
-                          </formulario>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo:</label>
+                                <input type="text" class="form-control" required id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Dirección de correo electrónico:</label>
+                                <input type="email" class="form-control" required id=" email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Categoria:</label>
+                                <input type="radio" required class="form-control" id="id2ca" name="Categoria"
+                                    value="Cocina"> Cocina <br>
+                                <input type="radio" required class="form-control" id="id2aa" name="Categoria"
+                                    value="Reposteria"> Reposteria <br>
+                                <input type="radio" required class="form-control" id="id2ba" name="Categoria"
+                                    value="Bebidas"> Bebidas
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Receta:</label>
+                                <textarea required name="" id="id3" class="form-control"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Recordarme</label>
+                            </div>
+                            <button type="enviar" class="btn btn-default"> Enviar</botón>
+
+                        </form>
                     </div>
                 </main>
                 <aside class="row enlaces">
