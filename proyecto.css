@@ -111,10 +111,10 @@ margin-bottom: 10px;
     margin-bottom: 5px;
     overflow: hidden;
 }
-#btn1{
+#btn1-1{
     margin-bottom: 15px;
 }
-#btn1,#btn2{
+#btn1-1,#btn2-1{
     font-size: 20px;
     block-size: 30px;
     width: 100%;
