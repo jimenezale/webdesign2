@@ -5,3 +5,8 @@ body{
     background-image: url("imagen_logo/comida0.jpg");
     color: black;
 }
+#logo{
+    border: 2px dotted black;
+    border-radius: 100%;
+    width: 100%;
+}
