@@ -10,6 +10,19 @@ body{
     border-radius: 100%;
     width: 100%;
 }
+.menu{
+    background: #fdc2d7;
+}
+.receta{
+    background: #c9b1b9;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.enlaces{
+    background: #e0a5b5;
+}
 .ultimo{
     background:#ff6fab;
 }
