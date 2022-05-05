@@ -9,12 +9,12 @@ header, main, footer {
     padding: .5rem;
     max-width: 1600px;
 }
-main{
+.contenedorpadre{
     background-color: #88ffe7;
     display: flex;
     justify-content: space-around;
     overflow:hidden;
-    max-width: 100%;
+    max-width: 98%;
 }
 #cont {
     padding: 20px;
@@ -31,6 +31,7 @@ main{
 header, footer, footer a {
     background-color:#74beff;
     color: whitesmoke;
+    max-width: 98%;
 }
 nav .contenedor{
     display: flex;
@@ -64,14 +65,7 @@ nav .contenedor a:link{
     text-decoration:none;
     font-size: 24px;
 }
-/*color despues de visitar un sitio;*/
-/*
-a:visited{
-    color:#21b080;
-}*/
-/*ul {
-     list-style-image: url("imagen_foto/img.jpg");
-}*/
+
 nav .contenedor li{
     overflow: hidden;
     display: flex;
