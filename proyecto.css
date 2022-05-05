@@ -40,7 +40,7 @@
     text-decoration: none;
     font-size: 37px;
     color: rgb(9, 255, 202);
-    background-color: rgb(255, 204, 255);
+    background-color: rgb(237, 193, 193);
 }
 .contenedor1 header nav .lista_menu li .l1:visited{
     color: #000000;
@@ -55,6 +55,7 @@
     max-width: 96%;
     overflow: hidden;
     background-color: #E4C8D2;
+    margin-bottom: 5px;
 }
 
 .contenedor3{
