@@ -95,12 +95,19 @@ margin-bottom: 10px;
     background: #AE6575;
     width: 69%;
     margin-left: 5px;
+    margin-bottom: 5px;
 }
 .btn{
     background: #f0f8ff;
     width: 29%;
     float: right;
     margin-right: 5px;
+    margin-bottom: 5px;
+}
+#btn1{
+    margin-left: 35%;
+    font-size: 20px;
+    block-size: 50px;
 }
 
 
